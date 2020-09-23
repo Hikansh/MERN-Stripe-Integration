@@ -1,0 +1,44 @@
+body,
+html,
+#root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+  h1#head {
+    text-align: center;
+  }
+}
+
+.product {
+  display: grid;
+  align-items: center;
+  padding: 5%;
+  margin: 1em auto;
+  width: 70%;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.15);
+  justify-self: center;
+
+  section {
+    p {
+      line-height: 28px;
+    }
+  }
+
+  img {
+    // grid-area: image;
+    justify-self: center;
+    width: auto;
+    height: 200px;
+  }
+}
